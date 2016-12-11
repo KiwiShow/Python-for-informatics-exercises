@@ -1,0 +1,1 @@
+hour = raw_input("Enter hours:")rate = raw_input("Enter rate:")hour_float = float(hour)rate_float = float(rate)if hour_float > 40:	pay = 400 + (hour_float - 40) * rate_float * 1.5else:	pay = hour_float * rate_floatprint 'pay:',pay

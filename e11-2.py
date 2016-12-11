@@ -1,0 +1,1 @@
+import refname = raw_input('Enter file name: ')try :	fhand = open(fname)except:	print 'This file cannot be opened: ',fname	exit()count = 0	total = 0for line in fhand:	line = line.rstrip()	x =  re.findall('^Details:.*rev=([0-9]+)', line)	if x:		count += 1		total += int(x[0])    print total / float(count)

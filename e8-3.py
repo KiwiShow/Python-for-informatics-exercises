@@ -1,0 +1,1 @@
+fhand = open('mbox-short.txt')for line in fhand:	words = line.split()# 	print 'debug:',words# 	if len(words) == 0 or len(words) < 3: continue  # a line with just 'From'	if len(words) != 0  and words[0] == 'From': print words[2]   #be careful the 'From' and 'From:'# be careful: first should be    len(words) != 0    second should be   words[0] == 'From' 			

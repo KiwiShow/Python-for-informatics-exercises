@@ -1,0 +1,1 @@
+string = raw_input('enter string:')word = raw_input('enter word:')count = 0for  letter in string:	if letter == word:		count = count + 1print count

@@ -1,0 +1,1 @@
+hour = raw_input("Enter hours:")rate = raw_input("Enter rate:")hour_float = float(hour)rate_float = float(rate)pay = hour_float * rate_floatprint 'pay:',pay

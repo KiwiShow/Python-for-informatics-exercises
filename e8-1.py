@@ -1,0 +1,1 @@
+def chop(t):	del t[0]	del t[len(t)-1]	def middle(t):	return t[1:len(t)-1]	print 'test chop function:'t1 = ['a','b','c','d']chop(t1)print 't1 after chop function: ',t1y1 = chop(t1)print y1print 'test middle function:'t2 = ['a','b','c','d']print 't2 after middle function  return: 'y2 = middle(t2)print y2

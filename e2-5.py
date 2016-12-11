@@ -1,0 +1,1 @@
+tem = raw_input('Enter the temperature:')tem_sheshi = int(tem)tem_huashi = tem_sheshi * 1.8 + 32print tem_huashi

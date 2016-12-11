@@ -1,0 +1,1 @@
+fname = raw_input('enter the file name:')try:	fhand = open(fname)except:	print 'This file cannot be opened: ', fname	exit()total_words = list()for line in fhand:	words = line.split()	for word in words:		if word not in total_words:			total_words.append(word)			total_words.sort()			print total_words

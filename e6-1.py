@@ -1,0 +1,1 @@
+index = -1  #the last char in a stringfruit = 'banana'print 'while'while index >= -len(fruit):	letter = fruit[index]	print letter 	index = index - 1	print 'for...in'for char in fruit:	print char		

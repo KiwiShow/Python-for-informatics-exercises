@@ -1,0 +1,1 @@
+fname = raw_input('Enter file name: ')try :	fhand = open(fname)except:	print 'This file cannot be opened: ',fname	exit()	d = dict()	for line in fhand:	words = line.split()	if len(words) >= 3  and words[0] == 'From':  #guardian pattern		d[words[1]] = d.get(words[1],0) + 1		print d

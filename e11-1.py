@@ -1,0 +1,1 @@
+import rehand = open('mbox.txt')search_name = raw_input('Enter a regular expression:')count = 0for line in hand:    line = line.rstrip()    if re.search(search_name, line) :        count += 1        print 'mbox.txt had %s that matched %s'%(count,search_name) 

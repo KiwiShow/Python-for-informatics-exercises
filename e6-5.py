@@ -1,0 +1,1 @@
+str01 = "X-DSPAM-Confidence:  0.8475"start = str01.find(':')print startsub_string = str01[start+1:]print sub_stringnum = float(sub_string)print num,type(num)
